@@ -1,0 +1,90 @@
+/* Genel Stil Ayarları */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Başlık ve Footer Stilleri */
+header, footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+}
+
+footer {
+  margin-top: auto;
+}
+
+/* Menü Stilleri */
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Ana İçerik Stilleri */
+main {
+  padding: 20px;
+  flex: 1;
+}
+
+/* Blog Gönderisi Kart Stilleri */
+.articles-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+article {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  flex: 1;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Yatayda ortalama */
+  justify-content: center; /* Dikeyde ortalama */
+  text-align: center; /* Metin ortalama */
+}
+
+article:last-child {
+  margin-right: 0;
+}
+
+article img {
+  width: 200px; /* Görsel genişliği */
+  height: 300px; /* Görsel yüksekliği */
+  border-radius: 5px;
+  margin-bottom: 10px; /* Görsel ile metin arasına boşluk ekleme */
+}
+
+article h2 {
+  color: #333;
+}
+
+article p {
+  color: #666;
+}
+
+/* Footer Metin Stili */
+footer p {
+  margin: 0;
+}

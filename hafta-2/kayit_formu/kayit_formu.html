@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Örneği</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Form Elementi -->
+    <form id="survey-form">
+        <!-- Sayfa Başlığı -->
+        <h1 id="title">Anket Formu</h1>
+        <!-- Açıklama -->
+        <p id="description">Lütfen aşağıdaki formu doldurun.</p>
+        <!-- İsim Giriş Alanı -->
+        <label id="name-label" for="name">İsim:</label>
+        <input id="name" type="text" placeholder="İsminizi girin" required>
+        <!-- E-posta Giriş Alanı -->
+        <label id="email-label" for="email">E-posta:</label>
+        <input id="email" type="email" placeholder="E-posta adresinizi girin" required>
+        <!-- Sayı Giriş Alanı -->
+        <label id="number-label" for="number">Yaş:</label>
+        <input id="number" type="number" placeholder="Yaşınızı girin" min="1" max="120" required>
+        <!-- Seçim Kutusu -->
+        <label for="dropdown">Cinsiyet:</label>
+        <select id="dropdown" required>
+            <option value="">Seçin</option>
+            <option value="male">Erkek</option>
+            <option value="female">Kadın</option>
+        </select>
+        <!-- Radyo Düğmeleri -->
+        <p>Katılım Durumu:</p>
+        <label>
+            <input type="radio" name="participation" value="yes" required> Evet
+        </label>
+        <label>
+            <input type="radio" name="participation" value="no" required> Hayır
+        </label>
+        <!-- Onay Kutuları -->
+        <p>İlgi Alanları:</p>
+        <label>
+            <input type="checkbox" name="interests" value="sports"> Spor
+        </label>
+        <label>
+            <input type="checkbox" name="interests" value="music"> Müzik
+        </label>
+        <!-- Metin Alanı -->
+        <label for="comments">Ek Yorumlar:</label>
+        <textarea id="comments" placeholder="Yorumlarınızı buraya yazın"></textarea>
+        <!-- Gönder Butonu -->
+        <input id="submit" type="submit" value="Gönder">
+    </form>
+</body>
+</html>

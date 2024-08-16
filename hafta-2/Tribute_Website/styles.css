@@ -1,0 +1,100 @@
+/* Genel stil ayarları */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+/* Başlık ve navigasyon menüsü stili */
+header {
+  background: #d89d9d;
+  color: #412e2e;
+  padding: 10px 0;
+}
+
+/* Navigasyon menüsü stili */
+nav {
+  display: flex;
+  justify-content: center;
+  background: #160935;
+}
+
+nav a {
+  color: #c0f0e4;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  background: #300f8d;
+}
+
+/* Ana sayfa arka plan rengi */
+.home {
+  background: #240c04;
+}
+
+/* Bilgi sayfası arka plan rengi */
+.info {
+  background: #3a2904;
+}
+
+/* Kitaplar sayfası arka plan rengi */
+.books {
+  background: #6b5192;
+}
+
+/* Giriş bölümü stili */
+.intro img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.intro blockquote {
+  font-style: italic;
+  margin: 20px 0;
+
+}
+
+/* Biyografi ve eserler bölümü stili */
+.biography, .works {
+  margin: 20px 0;
+  padding: 20px;
+  color: #b3b690;
+  background: rgba(29, 21, 21, 0.5);
+  border-radius: 50px;
+}
+
+/* Kitap listesi stili */
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.book-item {
+  background: #2c1414;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+/* Alt bilgi stili */
+footer {
+  background: #705454;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.width {
+font-size: 35px;
+}

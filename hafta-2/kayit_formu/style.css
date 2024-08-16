@@ -1,0 +1,56 @@
+/* Sayfa arka planı ve genel stil */
+body {
+  background: linear-gradient(to right, #ff758c, #ff7eb3);
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+/* Form stili */
+#survey-form {
+  background: #2c3e50;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  color: #ecf0f1;
+}
+/* Başlık stili */
+h1 {
+  text-align: center;
+  color: #ecf0f1;
+}
+/* Etiket stili */
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #ecf0f1;
+}
+/* Giriş alanları stili */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+}
+/* Gönder butonu stili */
+input[type="submit"] {
+  background: #e74c3c;
+  color: #ecf0f1;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+/* Gönder butonu hover efekti */
+input[type="submit"]:hover {
+  background: #c0392b;
+}
