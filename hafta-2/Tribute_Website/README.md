@@ -1,3 +1,3 @@
-![ana_sayfa](https://github.com/user-attachments/assets/6e96d7ec-a88a-48a8-b3de-c1f11f423132)
-![biyografi](https://github.com/user-attachments/assets/c671a0a3-23ca-43f8-b037-c096e9696a1b)
-![kitaplar](https://github.com/user-attachments/assets/1b6b5028-3dc3-400c-8b1d-eb931e35ffad)
+![ana sayfa](https://github.com/user-attachments/assets/449ea93e-f4d9-479c-b8a2-26cb970c4215)
+![biyografi](https://github.com/user-attachments/assets/04955c8f-e186-459e-bc89-e56a10c820ab)
+![kitaplar](https://github.com/user-attachments/assets/7ad52022-ebc9-4802-8c17-3f972bb38ef7)
