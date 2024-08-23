@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Ana Sayfa</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Başlık ve Menü -->
+    <header class="bg-dark text-white">
+        <div class="container">
+            <h1 class="py-3">Blog Başlığı</h1>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="index.html">Ana Sayfa</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="post.html">Blog Gönderisi</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid text-center">
+        <div class="container">
+            <h1 class="display-4">Blog'a Hoş Geldiniz!</h1>
+            <p class="lead">Bu blogda çeşitli konularda yazılar bulabilirsiniz.</p>
+        </div>
+    </div>
+    
+    <!-- Ana İçerik -->
+    <main class="container">
+        <div class="row">
+            <!-- Blog Gönderisi Kartları -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="img/1.jpg" class="card-img-top" alt="Görsel 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Gönderi Başlığı 1</h5>
+                        <p class="card-text">Bu, ilk blog gönderisinin özetidir...</p>
+                        <a href="post.html" class="btn btn-primary">Devamını Oku</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="img/2.jpg" class="card-img-top" alt="Görsel 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Gönderi Başlığı 2</h5>
+                        <p class="card-text">Bu, ikinci blog gönderisinin özetidir...</p>
+                        <a href="post.html" class="btn btn-primary">Devamını Oku</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="img/3.jpg" class="card-img-top" alt="Görsel 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Gönderi Başlığı 3</h5>
+                        <p class="card-text">Bu, üçüncü blog gönderisinin özetidir...</p>
+                        <a href="post.html" class="btn btn-primary">Devamını Oku</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>© 2024 Blog Adı. Tüm hakları saklıdır.</p>
+    </footer>
+</body>
+</html>
