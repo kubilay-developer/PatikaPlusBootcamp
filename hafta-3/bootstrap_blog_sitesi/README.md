@@ -14,7 +14,3 @@ Bu proje, basit bir blog web sitesi tasarımıdır. HTML, CSS ve Bootstrap 5 kul
 - **HTML5**
 - **CSS3**
 - **Bootstrap 5**
-
-## Kullanım
-
-Proje dosyalarını indirip tarayıcınızda açarak görüntüleyebilirsiniz.
