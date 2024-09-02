@@ -1,4 +1,4 @@
-Tanıtım Sayfası
+İnceleme Sayfası
 Bu proje, Tailwind CSS kullanılarak oluşturulmuş basit ve duyarlı bir inceleme sayfasıdır. Sayfa, modern tasarım öğeleriyle temiz ve minimalist bir arayüz sunar. İçerisinde bir navbar, hero bölümü, müşteri yorumları, iletişim formu ve footer bulunmaktadır.
 
 Özellikler
