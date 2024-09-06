@@ -1,4 +1,4 @@
-# Kodluyoruz Javascript Saat Ödevi
+# Kodluyoruz - Patika Javascript Saat Ödevi
 
 Bu proje, Kodluyoruz Frontend Web Development Patikası'nın Javascript bölümü 1. ödevi için hazırlanmıştır.
 
