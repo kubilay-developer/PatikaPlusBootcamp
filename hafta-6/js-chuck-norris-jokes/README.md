@@ -1,6 +1,6 @@
 # Chuck Norris Şakaları Projesi
 
-Bu proje, Chuck Norris şakalarını görüntülemek için bir API kullanan basit bir web uygulamasıdır.
+Bu proje, Chuck Norris şakalarını görüntülemek için API kullanan basit bir web uygulamasıdır.
 
 ## Özellikler
 
