@@ -20,7 +20,5 @@ Bu proje, JavaScript kullanarak oluşturulmuş bir drum kit uygulamasıdır. Kul
 - Klavyedeki `W`, `A`, `S`, `D`, `J`, `K`, `L` tuşlarına basarak veya ekrandaki düğmelere tıklayarak davul seslerini çalabilirsiniz.
 - Her tuşa basıldığında ilgili davul sesi çalınır ve bir animasyon oynatılır.
 
-## Demo
-
-!Drum Kit Demo https://github.com/user-attachments/assets/3f3319a4-0888-4226-9305-a049d1beaf1c
+https://github.com/user-attachments/assets/3f3319a4-0888-4226-9305-a049d1beaf1c
 
