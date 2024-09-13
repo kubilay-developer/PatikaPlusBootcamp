@@ -22,7 +22,5 @@ Bu proje, JavaScript kullanarak oluşturulmuş bir drum kit uygulamasıdır. Kul
 
 ## Demo
 
-!Drum Kit Demo
-
-https://github.com/user-attachments/assets/3f3319a4-0888-4226-9305-a049d1beaf1c
+!Drum Kit Demo https://github.com/user-attachments/assets/3f3319a4-0888-4226-9305-a049d1beaf1c
 
